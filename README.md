@@ -25,8 +25,8 @@ The training script selects Apple MPS, CUDA, or CPU in that order. Its current d
 ## Setup
 
 ```bash
-git clone https://github.com/gxorge13/DarkNoise_EAM.git
-cd DarkNoise_EAM
+git clone https://github.com/gxorge13/hyperspectral-image-denoising.git
+cd hyperspectral-image-denoising
 python -m venv .venv
 source .venv/bin/activate
 python -m pip install torch numpy matplotlib torchmetrics scikit-image
